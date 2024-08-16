@@ -1,0 +1,18 @@
+[2024-08-07 00:32:28.384]	local.info	blogApi/main.go:18	Log init success!
+[2024-08-15 22:55:55.900]	local.info	blogApi/main.go:18	Log init success!
+[2024-08-15 22:57:12.455]	local.error	bootstrap/db.go:50	mysql connect failed, err:	{"err": "dial tcp 190.92.239.86:3306: connect: operation timed out"}
+[2024-08-15 23:07:42.459]	local.info	blogApi/main.go:18	Log init success!
+[2024-08-15 23:08:59.575]	local.error	bootstrap/db.go:50	mysql connect failed, err:	{"err": "dial tcp 190.92.239.86:3306: connect: operation timed out"}
+[2024-08-15 23:33:33.570]	local.info	blogApi/main.go:15	Log init success!
+[2024-08-15 23:34:50.175]	local.error	bootstrap/db.go:50	mysql connect failed, err:	{"err": "dial tcp 190.92.239.86:3306: connect: operation timed out"}
+[2024-08-15 23:39:10.396]	local.info	blogApi/main.go:15	Log init success!
+[2024-08-15 23:40:27.050]	local.error	bootstrap/db.go:50	mysql connect failed, err:	{"err": "dial tcp 190.92.239.86:3306: connect: operation timed out"}
+[2024-08-16 00:19:08.835]	local.info	blogApi/main.go:15	Log init success!
+[2024-08-16 00:20:26.031]	local.error	bootstrap/db.go:50	mysql connect failed, err:	{"err": "dial tcp 190.92.239.86:3306: connect: operation timed out"}
+[2024-08-16 00:21:30.964]	local.info	blogApi/main.go:15	Log init success!
+[2024-08-16 00:21:32.305]	local.info	blogApi/main.go:15	Log init success!
+[2024-08-16 00:22:49.034]	local.error	bootstrap/db.go:50	mysql connect failed, err:	{"err": "dial tcp 190.92.239.86:3306: connect: operation timed out"}
+[2024-08-16 19:11:49.908]	local.info	blogApi/main.go:15	Log init success!
+[2024-08-16 19:13:05.131]	local.error	bootstrap/db.go:50	mysql connect failed, err:	{"err": "dial tcp 190.92.239.86:3306: connect: operation timed out"}
+[2024-08-16 19:21:31.181]	local.info	blogApi/main.go:15	Log init success!
+[2024-08-16 19:22:46.918]	local.error	bootstrap/db.go:50	mysql connect failed, err:	{"err": "dial tcp 190.92.239.86:3306: connect: operation timed out"}

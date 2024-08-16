@@ -1,0 +1,24 @@
+
+2024/08/15 22:57:12 /Users/shiyuxiang/develop/web/ginWeb/blogApi/bootstrap/db.go:46
+[error] failed to initialize database, got error dial tcp 190.92.239.86:3306: connect: operation timed out
+
+2024/08/15 23:08:59 /Users/shiyuxiang/develop/web/ginWeb/blogApi/bootstrap/db.go:46
+[error] failed to initialize database, got error dial tcp 190.92.239.86:3306: connect: operation timed out
+
+2024/08/15 23:34:50 /Users/shiyuxiang/develop/web/ginWeb/blogApi/bootstrap/db.go:46
+[error] failed to initialize database, got error dial tcp 190.92.239.86:3306: connect: operation timed out
+
+2024/08/15 23:40:27 /Users/shiyuxiang/develop/web/ginWeb/blogApi/bootstrap/db.go:46
+[error] failed to initialize database, got error dial tcp 190.92.239.86:3306: connect: operation timed out
+
+2024/08/16 00:20:26 /Users/shiyuxiang/develop/web/ginWeb/blogApi/bootstrap/db.go:46
+[error] failed to initialize database, got error dial tcp 190.92.239.86:3306: connect: operation timed out
+
+2024/08/16 00:22:49 /Users/shiyuxiang/develop/web/ginWeb/blogApi/bootstrap/db.go:46
+[error] failed to initialize database, got error dial tcp 190.92.239.86:3306: connect: operation timed out
+
+2024/08/16 19:13:05 /Users/shiyuxiang/develop/web/ginWeb/blogApi/bootstrap/db.go:46
+[error] failed to initialize database, got error dial tcp 190.92.239.86:3306: connect: operation timed out
+
+2024/08/16 19:22:46 /Users/shiyuxiang/develop/web/ginWeb/blogApi/bootstrap/db.go:46
+[error] failed to initialize database, got error dial tcp 190.92.239.86:3306: connect: operation timed out
