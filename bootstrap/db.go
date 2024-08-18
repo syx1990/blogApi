@@ -12,6 +12,7 @@ import (
 	"go.uber.org/zap"
 	"gopkg.in/natefinch/lumberjack.v2"
 	"gorm.io/driver/mysql"
+	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )
@@ -22,7 +23,28 @@ func InitializeDB() *gorm.DB {
 	case "mysql":
 		return initMySqlGorm()
 	default:
-		return initMySqlGorm()
+		return initSqlite() // 加载sqlite数据库
+	}
+}
+
+func initSqlite() *gorm.DB {
+	dbConfig := global.App.Config.Database
+
+	if dbConfig.Database == "" {
+		return nil
+	}
+
+	dsn := dbConfig.UserName + ":" + dbConfig.Password + "@./" + dbConfig.Database
+
+	if db, err := gorm.Open(sqlite.Open(dsn), &gorm.Config{
+		// DisableForeignKeyConstraintWhenMigrating: true,            // 禁用自动创建外键约束
+		Logger: getGormLogger(), // 使用自定义 Logger
+	}); err != nil {
+		global.App.Log.Error("sqlite connect failed, err:", zap.Any("err", err))
+		return nil
+	} else {
+		initMySqlTables(db)
+		return db
 	}
 }
 
